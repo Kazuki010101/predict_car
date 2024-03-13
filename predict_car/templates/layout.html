@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="../static/css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <title>車種予測</title>
+    </head>
+
+    <header>
+        <img src="/static/logo3.png" alt="トヨタのロゴ">
+        TOYOTAを知ろう!
+    </header>
+
+    <div class="clear"></div>
+
+    <body>
+
+        <div id="button-list">
+
+                <nav>
+                    <ul>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiL47H2zuaDAxUys1YBHSUtDMYQFnoECBQQAQ&url=https%3A%2F%2Fglobal.toyota%2Fjp%2Fcompany%2Ftrajectory-of-toyota%2Fhistory%2Findex.html&usg=AOvVaw0vgipUXY6Zqm_m-fInP4Qd&opi=89978449">歴史</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi_343-0OaDAxUoglYBHcHxCcsQFnoECBEQAQ&url=https%3A%2F%2Fwww.toyota.co.jp%2Fjpn%2Fcompany%2Fhistory%2F75years%2Fdata%2Fcompany_information%2Fmanagement_and_finances%2Fmanagement%2Fexecutives%2Fpast.html&usg=AOvVaw2WHKMx0ngc5GiJD8llZl01&opi=89978449">歴代社長</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi2vtnb2-aDAxVWh1YBHeytDMoQFnoECBEQAQ&url=http%3A%2F%2Ftoyota.jp%2Fcarlineup%2Findex.html&usg=AOvVaw3GaLaPERAt91WPmEznfT7Y&opi=89978449">車種一覧</a></li>
+                        <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj5nrejz-aDAxU0zRYFHT4FAb8YABAAGgJ0bA&gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3LgQ2KT5Eja_Pv0KcMGLcUjwictAy9qoHwGFS5fICl4Vy9YYT8FOF4aAr8SEALw_wcB&ohost=www.google.com&cid=CAESVuD2nh1P5StwbWbY3ebidYh5nOeLSvc6Q4cQ6KAgAfRt7vtr3sbhXSdu7EO4EKJNzTHRKNh0IebSgrY0sgWrlVg7hV63pocHc4gYUOhwY0lFvY03GvBn&sig=AOD64_0Qos914n4M6JgCZ94vmAEW_SO9Pg&q&adurl&ved=2ahUKEwjswrGjz-aDAxXfs1YBHbtQD8gQ0Qx6BAgJEAE">中古車サイト</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjtg9a76OaDAxUls1YBHVbkB8sQFnoECA8QAQ&url=https%3A%2F%2Fglobal.toyota%2Fjp%2Fnewsroom%2Findex.html&usg=AOvVaw1EOd6haTfGXzVZAa7wOgM2&opi=89978449">最新情報</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiG9pHf0OaDAxUthlYBHefYBkUQFnoECA0QAQ&url=http%3A%2F%2Ftoyota.jp%2Findex.html&usg=AOvVaw11MzeOIBiN0rQyxZ8uMKos&opi=89978449">公式サイト</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi9sKCP0uaDAxXhr1YBHU7vBMcQFnoECBQQAQ&url=https%3A%2F%2Fwww.instagram.com%2Ftoyota%2F&usg=AOvVaw1tBJ3b9zAZdxPisjdfaa2F&opi=89978449">公式 Instagram</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi54K-80uaDAxWHlFYBHdnHAMsQFnoECA0QAQ&url=https%3A%2F%2Fwww.facebook.com%2FToyotaMotorCorporation%2F&usg=AOvVaw0zFWIXUm3bqJw2hAelBj3E&opi=89978449">公式 facebook</a></li>
+                        <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjzupCN0-aDAxXRqFYBHcVhBskQ6F56BAgMEAE&url=https%3A%2F%2Ftwitter.com%2FTOYOTA_PR%3Fref_src%3Dtwsrc%255Egoogle%257Ctwcamp%255Eserp%257Ctwgr%255Eauthor&usg=AOvVaw1NM3UQzXtGpQdAuK4h8KaG&opi=89978449">公式 X</a></li>
+                        <li>
+                        <div id="predict">
+                            <a href="/">TOYOTAの車種を判定する</a></li>
+                        </div>
+
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+
+        </div>
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
+
+        <div class="content">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav "></div>
+                </div>            
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+
+    
+</html> 
